@@ -5,3 +5,7 @@ app = Flask(__name__) #definisco l'applicazione web, il parametro __name__ serve
 @app.route("/") #definisco il docoratore per la pagina principale
 def hello_world():#definisco la funzione che verrà eseguita nel browser quando l'utente accede alla pagina principale
     return "<p>Ciao, questa è la prima app che programmo io</p>"
+
+@app.route("/info") #definisco il docoratore per la pagina principale
+def info():
+    return "<p>App Lista della Spesa — versione 1.0</p>"
