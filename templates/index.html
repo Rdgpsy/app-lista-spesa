@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{titolo}}</title>  <!-- titolo della pagina -->
+    <body>
+        <h1>{{titolo}}</h1>
+        <ul><!-- devo passare un elenco -->
+            {% for item in items %} 
+                <li>{{ item }}</li>
+            {% endfor %}
+        </ul>  
+    </body>  
+</html>
