@@ -1,0 +1,16 @@
+/* colore di sfondo pagina */
+body {
+    background-color: powderblue; 
+}
+h1 {
+    color: blue; /* colore titolo */
+}
+ul {
+    color: red; /* colore elemento puntato */
+}
+ul {
+    font-family: "Times New Roman"; /* carattere elenco puntato */
+}
+h1 {
+    max-width: 200px; /* larghezza massima elemento */
+}
